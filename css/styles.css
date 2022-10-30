@@ -24,6 +24,7 @@ h1, .recipe-list {
 .ingredients h2 {
     padding: 0 10px;
 }
+
 .ingredients {
     /* border: 2px solid red; */
     display: inline-block;
