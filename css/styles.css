@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: sandybrown;
+    background-color: whitesmoke;
+    box-sizing: border-box;
 }
 
 h1, .recipe-list {
@@ -12,11 +13,64 @@ h1, .recipe-list {
     display: flex;
 }
 
-/* .border {
-    border: 2px solid black;
-    padding: 0;
+.main {
+    /* border: 2px solid black; */
+    display: flex;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    width: 100%;
+}
+
+.ingredients h2 {
+    padding: 0 10px;
+}
+.ingredients {
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* flex-direction: row; */
+    /* float: left; */
+    max-width: 40%; 
     margin: 0;
-} */
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.ingredients li {
+    padding: 10px; 
+}
+
+.ing_grey {
+    background-color: gainsboro;
+}
+
+.steps h2 {
+    padding: 0 20px;
+}
+
+.steps {
+    /* border: 2px solid red; */
+    display: inline-block;
+    /* flex-direction: row; */
+    /* float: right; */
+    max-width: 70%;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.steps li {
+    margin: 10px auto;
+}
+
+
+
+.footer {
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+}
 
 img {
     display: block;
