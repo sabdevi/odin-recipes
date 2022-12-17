@@ -21,6 +21,14 @@ h1, .recipe-list {
     width: 100%;
 }
 
+body > ul > li > a > img {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .ingredients h2 {
     padding: 0 10px;
 }
@@ -78,4 +86,5 @@ img {
     height: auto;
     width: 50%;
     margin: auto;
+    border-radius: 5px;
 }
